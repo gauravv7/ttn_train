@@ -1,0 +1,23 @@
+ 	
+
+    1.Create a directory "exercise" inside your home directory and create nested(dir1/dir2/dir3) directory structure inside "excerise" with single command.
+    2.Create two empty files inside dir: emptyFile1,emptyFile2 in single command and Remove the dir2 direcroty
+    3.Create one file file.txt containing text "hello world" and save it.
+    4.Find a "passwd" file using find command inside /etc. copy this files as passwd_copy and then rename this file as passwd_backup.
+    5.Try reading passwd_backup file in multiple tools: less,more,cat,strings etc and find the difference in their usage.
+    6.Find out the number of line in password_backup containing "/bin/false".
+    7.Redirect the output of the above commands into file "output".
+    8.Create a "test" user,create its password and find out its uid and gid.
+    9.Login as test user and edit the "output" file created above. Since the permission wont allow you to save the changes.
+    10.Configure such that test user can edit it.
+       a. Add group owner of the "output" file as the secondary group of testuser and check/change the "output" file permission if it is editable by group. Once done revert the changes.
+       b. Make the file editable to the world so that test user can access it. Revert the changes after verification
+       c. Change the ownership to edit the file. Try all the options and recommend best of them.
+    11.Create alias with your name so that it creates a file as "/tmp/aliastesting".
+    12.Edit ~/.bashrc file such that when you change to "test" user it should clear the screen and print "Welcome".
+    13.Install zip package.
+    14.Compress "output" and "password_backup" files into a tar ball. List the files present inside the tar created.
+    15.scp this file to test user
+    16.Unzip this tar bar by logging into the remote server.
+    17.Download any image from web and move to desktop
+
