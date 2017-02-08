@@ -1,0 +1,14 @@
+
+1    Git Setup https://confluence.atlassian.com/bitbucket/set-up-git-744723531.html
+2    Initialize a Git Repository
+3    Add files to the repository Unstage 1 file Commit the files
+4    Add a remote Undo changes to a particular file
+5    Push changes to Github Clone the repository
+6    Add changes to one of the copies and pull the changes in the other.
+7    Check differences between a file and its staged version
+8    Ignore a few files to be checked in Create a new branch.
+9    Diverge them with commits
+10    Edit the same file at the same line on both branches and commit
+11    Try merging and resolve merge conflicts
+12    Stash the changes and pop them
+
