@@ -1,0 +1,51 @@
+
+body{
+	position: relative;
+	margin: 0;
+	padding: 20px 40px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.2em;
+	font-family: 'Verdana', sans-serif;
+	color: #757171;	
+}
+header{
+	border-bottom: 1px solid #d1d1d1;
+}
+header h1{
+	color: #000;
+	line-height: 0.4em;
+}
+header .subtitle{
+	font-size: 18px;
+	color: #757171;
+	margin: 0 10px;
+}
+header h1{
+	color: #000;
+}
+#main .gallery {
+	list-style: none;
+	padding: 0;
+}
+#main > p {
+	padding: 0px;
+}
+#main .gallery li{
+	max-width: 31.7%;
+	min-width: 31.7%;
+	display: inline-block;
+	padding: 0 1%;
+}
+#main .gallery li > img {
+	max-width: 100%;
+}
+#main .gallery li:first-child{
+	padding-left: 0;
+}
+#main .gallery li:last-child{
+	padding-right: 0;
+}
+#main .gallery > li > h3{
+	color: #044a82;
+}
