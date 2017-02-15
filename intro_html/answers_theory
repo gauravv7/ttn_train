@@ -1,0 +1,77 @@
+1.How are inline and block elements different from each other?
+	display: inline; is a display mode to use in a sentence. For instance, if you have a paragraph and want to highlight a single word you do:
+
+	<p>
+	    Pellentesque habitant morbi <em>tristique</em> senectus
+	    et netus et malesuada fames ac turpis egestas.
+	</p>
+	The <em> element has a display: inline; by default, because this tag is always used in a sentence. The <p> element has a display: block; by default, because it's neither a sentence nor in a sentence, it's a block of sentences.
+
+	An element with display: inline; cannot have a height or a width or a vertical margin. An element with display: block; can have a width, height and margin.
+	If you want to add a height to the <em> element, you need to set this element to display: inline-block;. Now you can add a height to the element and every other block style (the block part of inline-block), but it is placed in a sentence (the inline part of inline-block).
+
+
+2.Explain the difference between visibility:hidden and display:none
+	display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the dom). There will be no space allocated for it between the other tags.
+
+	visibility:hidden means that unlike display:none, the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page.
+
+3. Explain the clear and float properties.
+	The float property specifies whether or not an element should float.
+
+	The clear property is used to control the behavior of floating elements.
+
+4. explain difference between absolute, relative,fixed and static.
+	position: static;
+		HTML elements are positioned static by default. Static positioned elements are not affected by the top, bottom, left, and right properties. An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page.
+	position: relative;
+		An element with position: relative; is positioned relative to its normal position. Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+	position: fixed;
+		An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element. A fixed element does not leave a gap in the page where it would normally have been located.
+	position: absolute;
+		An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+5. Write the HTML code to create a table in which there are 4 columns( ID , Employee Name, Designation, Department) and at least 6 rows. Also do some styling to it.
+			Please look at the file names "q5.html" in the same folder.
+
+6. Why do we use meta tags?
+		Metadata is data (information) about data. The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable. Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata. The metadata can be used by browsers (how to display content or reload page), search engines (keywords), or other web services.
+
+7. Explain box model.
+	All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+
+8. What are the different types of CSS Selectors?
+		a.Type Selectors correspond with HTML elements
+		b.ID Selectors are used by adding # in front of an elements ID
+		c.Class Selectors are used by adding a period in front of an elements class
+		d.Descendant Selectors are similar to family trees; you start with the parent element you wish to select, add a space, and continue  naming any interior elements until you’re arrived at the specific element you wish to select
+
+9. Define Doctype.
+	Like any language, HTML5 has a grammar and a vocabulary.
+	Grammar
+	<!DOCTYPE html> goes at the top of every HTML5 page.
+	Vocabulary
+	The HTML5 word <!DOCTYPE html> means "this page is written in HTML5" as opposed to, say HTML 4.01.
+	Why, you ask, don't they just write <HTML5> or even a zesty <!HTML5>? I have absolutely no idea. Still it's better than what they had before. Here's an example of one common type of XHTML:
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	Hopefully the doctype declaration in HTML5 won't turn into the crazy mess it did with XHTML and previous versions of HTML. Those in charge of such things say it won't, but time will tell.
+
+10. Explain 5 HTML5 semantic tags.
+	<article>	: The <article> element specifies independent, self-contained content.
+	<aside>		: The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+	<details>	: Defines additional details that the user can view or hide
+	<figcaption>: <figcaption> element defines the caption.
+	<figure>	:  an image and a caption can be grouped together in a <figure> element.
+	<footer>	: defines a footer of the page.
+	<header>	: defines a header of the page.
+	<main>		: Specifies the main content of a document
+	<mark>		: Defines marked/highlighted text
+	<nav>			: The <nav> element defines a set of navigation links.
+	<section>	: The <section> element defines a section in a document.
+	<summary>	: Defines a visible heading for a <details> element.
+	<time>		: Defines a date/time.
+
+11. Create HTML for web-page.jpg (check resources, highest weightage for answers)
+			Please look at the files in folder named "ex1"
+12. Create HTML for form.png (check resources, highest weightage for answers)
+			Please look at the files in folder named "ex2"
