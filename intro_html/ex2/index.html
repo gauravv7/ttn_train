@@ -1,0 +1,67 @@
+<!doctype html>
+<html charset="utf-8">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>bug report</title>
+	</head>
+	<body>
+		<section id="main">
+			<div class="panel">
+				<div class="panel-header">
+					<p>Bug Report</p>
+				</div>
+				<div class="panel-body">
+					<form id="form1" enctype="multipart/form-data" method="post" action="">
+						<div class="controls req">
+							<label for="title">Title</label>
+							<input type="text" name="title" id="title" required />
+						</div>
+						<div class="controls req">
+							<label for="desc">Description</label>
+							<textarea name="desc" id="desc" required></textarea>
+						</div>
+						<div class="controls">
+							<label for="ops">Operating System</label>
+							<select name="ops" id="ops"><option value="">Windows XP</option></select>
+						</div>
+						<div class="controls req">
+							<label for="product">Product</label>
+							<select name="product" id="product"><option value="">Formoid</option></select>
+						</div>
+						<div class="controls req">
+							<label for="version">Version</label>
+							<input type="text" name="version" required id="version"/>
+						</div>
+						<div class="controls">
+							<label for="license">License</label>
+							<div class="radio-group">
+								<label>
+									<input type="radio" name="license" id="license"/>Free
+								</label>
+								<label>
+									<input type="radio" name="license" id="license"/>Business
+								</label>
+							</div>
+						</div>
+						<div class="controls">
+							<label for="severity">Severity</label>
+							<select name="severity" id="severity"><option value="">Critical</option></select>
+						</div>
+						<div class="controls">
+							<label for="attachments">Attachments</label>
+							<div class="custom-file-upload">
+								<div class="file-upload-wrapper">
+									<input type="text" class="file-upload-input"><button type="button" class="file-upload-button" tabindex="-1">choose file</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="panel-footer">
+					<button type="submit" name="submit" form="form1" >Send</button>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
