@@ -1,0 +1,54 @@
+Instead using validation , use custom exception to handle all types of valid data
+Create a Registration form which have following fileds
+1. First Name (Only characters[a-z, A-Z] are allowed)
+2. Last Name (Only characters[a-z, A-Z] are allowed)
+3. Contact Number (Only digits [0-9], length should be 10)
+4. DOB (A valid date)
+All fields are mendetory, If user click on submit button and any field is wrong then should through an error as per type
+=========================================
+var myObject = {
+foo: "bar",
+func: function() {
+var self = this;
+console.log("outer func: this.foo = " + this.foo);
+console.log("outer func: self.foo = " + self.foo);
+(function() {
+console.log("inner func: this.foo = " + this.foo);
+console.log("inner func: self.foo = " + self.foo);
+}());
+}
+};
+myObject.func();
+=========================================
+Create a counter using closure
+=========================================
+Get data from google weather api using ajax hit and render the resultent data in table or list form
+=========================================
+Generate an exmple in which you should use callback indise a callback
+=========================================
+Start a digital watch for 2 hours on your screen and after that print a successfull message on screen that our service has been completed
+=========================================
+What’s the result of executing this code and why?
+
+function test() {
+console.log(a);
+console.log(fun());
+
+var a = 1;
+function fun() {
+return 2;
+}
+}
+
+test();
+=========================================
+Capitalize first letter of each word.
+Given string is:
+String s = "here are a bunch of words";
+Output should be:
+Here Are A Bunch Of Words
+=========================================
+Return highest occurred character in a String. For example if input is "aaaaaaaaaaaaaaaaabbbbcddddeeeeee" it should return "a".
+=========================================
+Write a program to remove duplicate characters from String. For example, if the input is ‘bananas’ the output will be ‘bans’.
+=========================================
